@@ -26,25 +26,25 @@
 <td valign="top" width="33%">
 
 **Overview**
-- [About the Project](#-about-the-project)
-- [Demo Video](#-demo-video)
-- [Features](#-features)
+- [About the Project](#about-the-project)
+- [Demo Video](#demo-video)
+- [Features](#features)
 
 </td>
 <td valign="top" width="33%">
 
 **Deep Dive**
-- [Concepts Applied](#-concepts-applied-in-depth)
-- [Program Flow](#️-program-flow)
-- [Menu Walkthrough](#-menu-walkthrough)
+- [Concepts Applied](#concepts-applied)
+- [Program Flow](#program-flow)
+- [Menu Walkthrough](#menu-walkthrough)
 
 </td>
 <td valign="top" width="33%">
 
 **Getting Started**
-- [Sample Run](#-sample-run)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-getting-started)
+- [Sample Run](#sample-run)
+- [Tech Stack](#tech-stack)
+- [Installation](#getting-started)
 
 </td>
 </tr>
@@ -52,14 +52,14 @@
 <td valign="top" width="33%">
 
 **Reference**
-- [Project Structure](#-project-structure)
-- [Assumptions](#-assumptions)
+- [Project Structure](#project-structure)
+- [Assumptions](#assumptions)
 
 </td>
 <td valign="top" width="33%">
 
 **Connect**
-- [Author](#-author)
+- [Author](#author)
 
 </td>
 </tr>
@@ -71,7 +71,7 @@
 
 <br>
 
-## 🧩 About the Project
+<h2 id="about-the-project">🧩 About the Project</h2>
 
 **Collection Manipulator** is a console-based Python application, built as an institute project, called the **Student Data Organizer**. It's designed around one core idea: give every one of Python's built-in collection types a real, practical job to do inside a single program.
 
@@ -81,7 +81,7 @@ Instead of treating `List`, `Tuple`, `Set`, and `Dictionary` as separate textboo
 
 <div align="center">
 
-## 🎬 Demo Video
+<h2 id="demo-video">🎬 Demo Video</h2>
 
 <img src="https://img.shields.io/badge/Status-Coming_Soon-8E2DE2?style=for-the-badge&logo=youtube&logoColor=white">
 
@@ -104,7 +104,7 @@ Instead of treating `List`, `Tuple`, `Set`, and `Dictionary` as separate textboo
 
 <br>
 
-## ✨ Features
+<h2 id="features">✨ Features</h2>
 
 <table width="100%">
 <tr>
@@ -157,7 +157,7 @@ Keeps running until the user chooses to exit — no restarting the script betwee
 
 <br>
 
-## 🧠 Concepts Applied (In Depth)
+<h2 id="concepts-applied">🧠 Concepts Applied (In Depth)</h2>
 
 <details>
 <summary><b>📃 List — the master record book</b></summary>
@@ -239,7 +239,7 @@ Deleting a student searches the list for a matching ID by index, then removes th
 
 <br>
 
-## 🗺️ Program Flow
+<h2 id="program-flow">🗺️ Program Flow</h2>
 
 ```mermaid
 flowchart TD
@@ -260,7 +260,7 @@ flowchart TD
 
 <br>
 
-## 🧭 Menu Walkthrough
+<h2 id="menu-walkthrough">🧭 Menu Walkthrough</h2>
 
 **1️⃣ Add Student** → prompts for ID, name, age, grade, DOB, and subjects → builds the tuple + set → stores everything in a dictionary → appends it to `student`.
 
@@ -280,12 +280,12 @@ flowchart TD
 
 <br>
 
-## 🖥️ Sample Run
+<h2 id="sample-run">🖥️ Sample Run</h2>
 
 <table width="100%">
 <tr><td>
 
-🔴 🟡 🟢&nbsp;&nbsp;**collection_manipulator.py — terminal**
+🔴 🟡 🟢&nbsp;&nbsp;**index.py — terminal**
 
 ```console
 Welcome to the Student Data Organizer!
@@ -326,7 +326,7 @@ Student ID : 101 | Name: Alice | Age: 20 | Grade: B+ | DOB: 2002-05-14 | Subject
 </td></tr>
 </table>
 
-> 🎥 Once the [demo video](#-demo-video) is uploaded, this whole run will be viewable in motion instead of just text.
+> 🎥 Once the [demo video](#demo-video) is uploaded, this whole run will be viewable in motion instead of just text.
 
 <br>
 
@@ -334,7 +334,7 @@ Student ID : 101 | Name: Alice | Age: 20 | Grade: B+ | DOB: 2002-05-14 | Subject
 
 <br>
 
-## 🛠️ Tech Stack
+<h2 id="tech-stack">🛠️ Tech Stack</h2>
 
 ![Python](https://img.shields.io/badge/-Python-8E2DE2?style=flat-square&logo=python&logoColor=white)
 ![CLI](https://img.shields.io/badge/-Command%20Line-4A00E0?style=flat-square&logo=windowsterminal&logoColor=white)
@@ -343,12 +343,12 @@ Student ID : 101 | Name: Alice | Age: 20 | Grade: B+ | DOB: 2002-05-14 | Subject
 
 <br>
 
-## 🚀 Getting Started
+<h2 id="getting-started">🚀 Getting Started</h2>
 
 ```bash
-git clone https://github.com/<your-username>/collection-manipulator.git
-cd collection-manipulator
-python collection_manipulator.py
+git clone https://github.com/PalAnghan/Collection-Manipulator-RedandWhite-python.git
+cd Collection-Manipulator-RedandWhite-python
+python Collection-Manipulator/index.py
 ```
 
 > Requires **Python 3.10+**, since the program uses the `match` statement for menu handling.
@@ -359,17 +359,18 @@ python collection_manipulator.py
 
 <br>
 
-## 📂 Project Structure
+<h2 id="project-structure">📂 Project Structure</h2>
 
 ```
-collection-manipulator/
-├── collection_manipulator.py
+Collection-Manipulator-RedandWhite-python/
+├── Collection-Manipulator/
+│   └── index.py
 └── README.md
 ```
 
 <br>
 
-## 📝 Assumptions
+<h2 id="assumptions">📝 Assumptions</h2>
 
 - Student ID is assumed to be a unique integer entered manually by the user; no duplicate-check is enforced.
 - Subjects are entered as a comma-separated string and converted into a `set` for automatic de-duplication.
@@ -381,26 +382,28 @@ collection-manipulator/
 
 <div align="center">
 
-## 👤 Author
+<h2 id="author">👤 About the Author</h2>
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=20&duration=2000&pause=700&color=8E2DE2&center=true&vCenter=true&width=500&lines=Pal+Anghan;Python+%26+AI-ML+Developer+in+the+Making;Turning+Data+Into+Decisions" alt="Typing SVG" />
+<img src="https://api.dicebear.com/7.x/bottts/svg?seed=PalAnghan&backgroundColor=8E2DE2,4A00E0" width="110" height="110" alt="Pal Anghan avatar" />
 
-Final-year BCA Student · Building toward AI-ML Development
+### Pal Anghan
 
-![Python](https://img.shields.io/badge/Python-8E2DE2?style=flat-square&logo=python&logoColor=white)
-![AI/ML](https://img.shields.io/badge/AI--ML-4A00E0?style=flat-square&logo=tensorflow&logoColor=white)
-![Learning](https://img.shields.io/badge/Currently-Learning-black?style=flat-square&logo=readthedocs&logoColor=white)
+🎓 BCA Student&nbsp; | &nbsp;🐍 Python Developer&nbsp; | &nbsp;🤖 AI-ML Enthusiast
+
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=18&duration=2200&pause=900&color=8E2DE2&center=true&vCenter=true&width=520&lines=Turning+Data+Into+Decisions;Currently+Learning+Python+%26+AI-ML;Always+Open+to+Internship+Opportunities" alt="Typing SVG" />
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-pal--anghan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pal-anghan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pal-anghan)
 [![Email](https://img.shields.io/badge/Email-palanghan8%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:palanghan8@gmail.com)
 
 <br>
 
-> *"Every dataset has a story — I'm learning to read it."*
+### ⭐ If you found this project useful, consider giving it a star!
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:4A00E0,100:8E2DE2&height=100&section=footer" />
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=4A00E0&center=true&vCenter=true&width=450&lines=Thanks+for+checking+out+Collection+Manipulator!" alt="Typing SVG" />
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:4A00E0,100:8E2DE2&height=90&section=footer" width="100%" />
 
 **"Quality is our Motto." — Shaping skills for scaling higher...!!!**
 
