@@ -58,12 +58,6 @@
 </td>
 <td valign="top" width="33%">
 
-**What's Next**
-- [Future Improvements](#-future-improvements)
-
-</td>
-<td valign="top" width="33%">
-
 **Connect**
 - [Author](#-author)
 
@@ -112,14 +106,50 @@ Instead of treating `List`, `Tuple`, `Set`, and `Dictionary` as separate textboo
 
 ## ✨ Features
 
-| Feature | Description |
-|---|---|
-| 🧾 **Add Student** | Capture ID, name, age, grade, date of birth, and subjects in one flow |
-| 📋 **Display All Students** | Neatly formatted, single-line-per-student output |
-| ✏️ **Update Student Information** | Edit only the *mutable* fields — age, grade, subjects |
-| ❌ **Delete Student** | Remove a record permanently using `del`, matched by ID |
-| 📚 **Display Subjects Offered** | Aggregate every unique subject across all students |
-| 🔁 **Persistent Menu Loop** | Runs continuously until the user chooses to exit |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 🧾 Add Student
+Capture ID, name, age, grade, date of birth, and subjects — all in one guided flow.
+
+</td>
+<td width="50%" valign="top">
+
+### 📋 Display All Students
+Every record printed on a clean, single formatted line — no clutter, no guesswork.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ✏️ Update Student Information
+Edit only what's meant to change — age, grade, and subjects — while ID and DOB stay locked.
+
+</td>
+<td width="50%" valign="top">
+
+### ❌ Delete Student
+Permanently remove a record using Python's `del` keyword, matched by student ID.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 Display Subjects Offered
+Pulls every unique subject across all students into one de-duplicated `set`.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔁 Persistent Menu Loop
+Keeps running until the user chooses to exit — no restarting the script between actions.
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -252,7 +282,12 @@ flowchart TD
 
 ## 🖥️ Sample Run
 
-```
+<table width="100%">
+<tr><td>
+
+🔴 🟡 🟢&nbsp;&nbsp;**collection_manipulator.py — terminal**
+
+```console
 Welcome to the Student Data Organizer!
 
 Select Option:
@@ -273,10 +308,25 @@ Date of Birth (YYYY-MM-DD): 2002-05-14
 Subjects (comma-separated): Math, Science, English
 
 Student added successfully!
+```
 
+</td></tr>
+</table>
+
+<table width="100%">
+<tr><td>
+
+🔴 🟡 🟢&nbsp;&nbsp;**output — Display All Students**
+
+```console
 --- Display All Student ---
 Student ID : 101 | Name: Alice | Age: 20 | Grade: B+ | DOB: 2002-05-14 | Subjects: {'Math', 'Science', 'English'}
 ```
+
+</td></tr>
+</table>
+
+> 🎥 Once the [demo video](#-demo-video) is uploaded, this whole run will be viewable in motion instead of just text.
 
 <br>
 
@@ -327,27 +377,28 @@ collection-manipulator/
 
 <br>
 
-## 🔮 Future Improvements
-
-- Add duplicate-ID validation when adding a new student
-- Persist data to a file or database instead of in-memory storage
-- Add search/filter options (e.g., by grade or subject)
-- Wrap numeric input parsing in try/except for graceful error handling
-- Record and embed the demo video walkthrough
-
-<br>
-
 ---
 
 <div align="center">
 
 ## 👤 Author
 
-**Pal Anghan**  
-Final-year BCA Student · Aspiring MERN Stack Developer
+<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=20&duration=2000&pause=700&color=8E2DE2&center=true&vCenter=true&width=500&lines=Pal+Anghan;Python+%26+AI-ML+Developer+in+the+Making;Turning+Data+Into+Decisions" alt="Typing SVG" />
+
+Final-year BCA Student · Building toward AI-ML Development
+
+![Python](https://img.shields.io/badge/Python-8E2DE2?style=flat-square&logo=python&logoColor=white)
+![AI/ML](https://img.shields.io/badge/AI--ML-4A00E0?style=flat-square&logo=tensorflow&logoColor=white)
+![Learning](https://img.shields.io/badge/Currently-Learning-black?style=flat-square&logo=readthedocs&logoColor=white)
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pal--anghan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pal-anghan)
 [![Email](https://img.shields.io/badge/Email-palanghan8%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:palanghan8@gmail.com)
+
+<br>
+
+> *"Every dataset has a story — I'm learning to read it."*
 
 <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:4A00E0,100:8E2DE2&height=100&section=footer" />
 
