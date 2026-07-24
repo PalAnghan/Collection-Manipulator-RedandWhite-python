@@ -90,6 +90,8 @@ Instead of treating `List`, `Tuple`, `Set`, and `Dictionary` as separate textboo
 </div>
 
 > 📌 **To add it later:** upload the video to GitHub (drag & drop into an Issue or the README editor to get a hosted link), then drop it in here as either:
+>
+> https://drive.google.com/file/d/1xyhzurIExlxpElj3zeH7NRmg2klkbrXs/view?usp=drivesdk
 > ```markdown
 > https://github.com/user-attachments/assets/your-video-id
 > ```
