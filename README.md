@@ -83,22 +83,13 @@ Instead of treating `List`, `Tuple`, `Set`, and `Dictionary` as separate textboo
 
 <h2 id="demo-video">🎬 Demo Video</h2>
 
-<img src="https://img.shields.io/badge/Status-Coming_Soon-8E2DE2?style=for-the-badge&logo=youtube&logoColor=white">
+<img src="https://img.shields.io/badge/Status-Available-brightgreen?style=for-the-badge&logo=googledrive&logoColor=white">
 
-*A walkthrough demo isn't recorded yet — this space is reserved for it.*
+**[▶️ Watch the Demo Video](https://drive.google.com/file/d/1xyhzurIExlxpElj3zeH7NRmg2klkbrXs/view?usp=drivesdk)**
+
+*Click the link above to watch the full walkthrough on Google Drive.*
 
 </div>
-
-> 📌 **To add it later:** upload the video to GitHub (drag & drop into an Issue or the README editor to get a hosted link), then drop it in here as either:
->
-> https://drive.google.com/file/d/1xyhzurIExlxpElj3zeH7NRmg2klkbrXs/view?usp=drivesdk
-> ```markdown
-> https://github.com/user-attachments/assets/your-video-id
-> ```
-> or as a clickable thumbnail:
-> ```markdown
-> [![Watch the demo](thumbnail.png)](https://your-video-link)
-> ```
 
 <br>
 
@@ -328,7 +319,7 @@ Student ID : 101 | Name: Alice | Age: 20 | Grade: B+ | DOB: 2002-05-14 | Subject
 </td></tr>
 </table>
 
-> 🎥 Once the [demo video](#demo-video) is uploaded, this whole run will be viewable in motion instead of just text.
+> 🎥 Prefer to see it in motion? Check out the [demo video](#demo-video) instead.
 
 <br>
 
